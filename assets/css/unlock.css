@@ -1,0 +1,98 @@
+
+
+* { margin: 0; padding: 0; }
+html { background:white; }
+body { 
+	font: 14px Georgia, serif; 
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #3b3b3b),color-stop(1, white));
+	background-repeat: no-repeat;
+	min-height: 350px;
+	
+}
+
+#page-wrap { width: 30%; margin: 0 auto; padding-top: 100px; }
+
+#well {
+	/*padding: 14px 20px 20px 20px;*/
+	padding: 10px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	background: -moz-linear-gradient(top, white, black );
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, black),color-stop(1, black));
+	
+	border: 2px solid #454545; 
+	overflow: hidden; 
+	
+	-webkit-user-select: none;
+	
+
+}
+
+h5 {
+  background: -moz-linear-gradient(left, #4d4d4d, 0.4, #4d4d4d, 0.5, white, 0.6, #4d4d4d, #4d4d4d); 
+  background: -webkit-gradient(linear,left top,right top,color-stop(0, #4d4d4d),color-stop(0.4, #4d4d4d),color-stop(0.5, white),color-stop(0.6, #4d4d4d),color-stop(1, #4d4d4d)); 
+  
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  
+  -webkit-animation: slidetounlock 5s infinite;
+  
+ font-size: 24px;
+ font-family: 'Muli', sans-serif;
+ font-weight: 900;
+  
+  padding: 0;
+  width: 100%;
+  text-transform: uppercase;
+  
+  -webkit-text-size-adjust: none;
+}
+#slider {
+	background: url(../images/arrow.png) no-repeat;
+	width: 148px;
+	height: 98px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	line-height: 1;
+}
+
+@-webkit-keyframes slidetounlock {
+	0% {
+		background-position: -720px 0;
+	}
+	100%{
+		background-position: 720px 0;
+	}
+}
+
+
+/* Media Queries  */
+/* xs < 768 */ 
+@media screen and (max-width: 767px) { 
+	#page-wrap { width: 80%;  }
+	h5 { font-size: 24px;}
+
+  /* sm */ 
+  @media screen and (min-width: 768px) { 
+	#page-wrap { width: 80%;  }
+	h5 { font-size: 24px;}
+  } 
+  
+  /* md */ 
+  @media screen and (min-width: 992px) { 
+	#page-wrap { width: 80%;  }
+
+  } 
+  
+  /* lg */ 
+  @media screen and (min-width: 1200px) { 
+	#page-wrap { width: 30%;  }
+
+  }
+  

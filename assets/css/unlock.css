@@ -3,7 +3,7 @@
 * { margin: 0; padding: 0; }
 html { background:white; }
 body { 
-	/*font: 14px Georgia, serif; */
+
 	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #3b3b3b),color-stop(1, white));
 	background-repeat: no-repeat;
 	min-height: 350px;
@@ -13,7 +13,7 @@ body {
 #page-wrap { width: 40%; margin: 0 auto; padding-top: 100px; }
 
 #well {
-	/*padding: 14px 20px 20px 20px;*/
+
 	padding: 5px 0 0 0;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
@@ -24,14 +24,6 @@ body {
 	
 	border: 2px solid #454545; 
 	overflow: hidden; 
-	
-/*	-webkit-user-select: none;*/
-	-webkit-overflow-scrolling: touch; /* if overflow it use touch scrolling for mobile device */
-	/* hide horizontal scrollbar */
-	-ms-overflow-style: none; 
-
-	
-
 }
 
 h5 {
@@ -46,7 +38,7 @@ h5 {
   
   -webkit-animation: slidetounlock 5s infinite;
   
- /*font-size: 24px;*/
+
  font-family: 'Muli', sans-serif;
  font-weight: 900;
   
@@ -63,7 +55,7 @@ h5 {
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0;
-	/*line-height: 1;*/
+	line-height: 1;
 }
 
 @-webkit-keyframes slidetounlock {
@@ -79,13 +71,13 @@ h5 {
 /* Media Queries  */
 /* xs < 768 */ 
 @media screen and (max-width: 767px) { 
-	#page-wrap { width: 90%; padding-top: 150px;  }
+	#page-wrap { width: 90%; padding-top: 140px;  }
 	h5 { font-size: 1em;}
 }
 
   /* sm */ 
   @media screen and (min-width: 768px) { 
-	#page-wrap { width:  50%; padding-top: 150px;  }
+	#page-wrap { width:  50%; padding-top: 140px;  }
 	h5 { font-size: 1.3em;}
   } 
   

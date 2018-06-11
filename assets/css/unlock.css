@@ -2,13 +2,6 @@
 
 * { margin: 0; padding: 0; }
 html { background:white; }
-body { 
-
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #3b3b3b),color-stop(1, white));
-	background-repeat: no-repeat;
-	min-height: 350px;
-	
-}
 
 #page-wrap { width: 40%; margin: 0 auto; padding-top: 100px; }
 
@@ -45,7 +38,6 @@ h5 {
   padding: 0;
   width: 100%;
   text-transform: uppercase;
-  
   -webkit-text-size-adjust: none;
 }
 #slider {

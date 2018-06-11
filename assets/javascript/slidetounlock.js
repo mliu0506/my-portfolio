@@ -4,7 +4,7 @@ $(function() {
 		axis: 'x',
 		containment: 'parent',
 		drag: function(event, ui) {
-			if (ui.position.left > 240) {
+			if (ui.position.left > 192) {
 				$("#well").fadeOut();
 				window.location.href = "#about";
 			} else {
@@ -13,7 +13,7 @@ $(function() {
 			}
 		},
 		stop: function(event, ui) {
-			if (ui.position.left < 240) {
+			if (ui.position.left < 192) {
 				$(this).animate({
 					left: 0
 				})
@@ -29,7 +29,7 @@ $(function() {
 	    var touch = event.touches[0];
 	    curX = touch.pageX - this.offsetLeft - 73;
 	    if(curX <= 0) return;
-	    if(curX > 240){
+	    if(curX > 192){
 			$('#well').fadeOut();
 			window.location.href = "#about";
 	    }
